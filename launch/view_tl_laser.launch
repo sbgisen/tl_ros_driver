@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find tl_ros_driver)/launch/tl_laser.launch" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find tl_ros_driver)/rviz/tl_config.rviz" />
+</launch>

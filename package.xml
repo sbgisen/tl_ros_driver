@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tl_ros_driver</name>
+  <version>0.0.1</version>
+  <description>The tl_ros_driver package</description>
+
+  <maintainer email="sungmo.kang@soslab.co">Sung-Mo Kang</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://soslab.co</url>
+  <url type="repository">https://github.com/sos-lab-co-ltd/tl_ros_driver</url>
+  <url type="bugtracker">https://github.com/sos-lab-co-ltd/tl_ros_driver/issues</url>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>boost</depend>
+</package>
