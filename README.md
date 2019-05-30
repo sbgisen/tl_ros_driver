@@ -8,7 +8,7 @@
 * Installation
 ```
 cd $(ROS workspace)/src
-git clone https://github.com/sos-lab-co-ltd/soslab_tl_driver.git
+git clone https://github.com/sos-lab-co-ltd/tl_ros_driver.git
 cd $(ROS workspace)
 catkin_make
 ```
@@ -34,6 +34,10 @@ roslaunch soslab_tl_driver view_tl_laser.launch
   </node>
 </launch>
 ```
+
+## Test environment
+- ROS Melodic Morenia
+- Ubuntu 16.04 and Ubuntu 18.04
 
 ## Application demo
 - Virtual touch screen (https://youtu.be/csur2P3Ajk0)
