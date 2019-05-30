@@ -36,7 +36,7 @@ roslaunch soslab_tl_driver view_tl_laser.launch
 ```
 
 ## Test environment
-- ROS Melodic Morenia
+- ROS Melodic Morenia and ROS Kinetic Kame
 - Ubuntu 16.04 and Ubuntu 18.04
 
 ## Application demo
