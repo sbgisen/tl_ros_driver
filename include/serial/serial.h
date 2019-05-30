@@ -35,6 +35,7 @@
 #ifndef SERIAL_H
 #define SERIAL_H
 
+#include <stdint.h>
 #include <limits>
 #include <vector>
 #include <string>
