@@ -18,17 +18,17 @@ sudo chmod a+rw /dev/ttyUSB0
 ```
 * Run TL-3 publisher node
 ```
-roslaunch soslab_tl_driver tl_laser.launch
+roslaunch tl_ros_driver tl_laser.launch
 ```
 * Run TL-3 publisher node with RViz
 ```
-roslaunch soslab_tl_driver view_tl_laser.launch
+roslaunch tl_ros_driver view_tl_laser.launch
 ```
-* Change serial port or frame_id in `soslab_tl_driver/launch/tl_laser.launch`
+* Change serial port or frame_id in `tl_ros_driver/launch/tl_laser.launch`
 ```xml
 <?xml version="1.0"?>
 <launch>
-  <node pkg="soslab_tl_driver" type="tl_driver_node" name="tl_driver_node" output="screen">
+  <node pkg="tl_ros_driver" type="tl_driver_node" name="tl_driver_node" output="screen">
     <param name="port" value="/dev/ttyUSB0"/>
     <param name="frame_id" value="laser"/>
   </node>
