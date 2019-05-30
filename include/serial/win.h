@@ -39,9 +39,11 @@
 #ifndef SERIAL_IMPL_WINDOWS_H
 #define SERIAL_IMPL_WINDOWS_H
 
-#include "serial/serial.h"
+#include "serial.h"
 
 #include "windows.h"
+
+#include <stdint.h>
 
 namespace serial {
 
